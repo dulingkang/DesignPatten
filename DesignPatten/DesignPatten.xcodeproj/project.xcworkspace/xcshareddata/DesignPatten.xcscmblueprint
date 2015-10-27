@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2A0F2046DF72633D5972BADBEADB9BD996F94D3B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EBCE5C9FA1F4681FCF67B24B425A2052E8CCD811" : 0,
+    "2A0F2046DF72633D5972BADBEADB9BD996F94D3B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2601F618-EBFD-43B6-98A3-0C5359244FDB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EBCE5C9FA1F4681FCF67B24B425A2052E8CCD811" : "",
+    "2A0F2046DF72633D5972BADBEADB9BD996F94D3B" : "DesignPatten\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DesignPatten",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DesignPatten\/DesignPatten.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dulingkang\/DesignPatten.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A0F2046DF72633D5972BADBEADB9BD996F94D3B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dulingkang\/shawndu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBCE5C9FA1F4681FCF67B24B425A2052E8CCD811"
+    }
+  ]
+}
