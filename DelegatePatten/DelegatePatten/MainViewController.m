@@ -8,12 +8,21 @@
 
 #import "MainViewController.h"
 #import "RemindView.h"
+#import "FaceDetectProtocol.h"
+#import "FaceModel.h"
 
 @interface MainViewController()<RemindViewDelegate>
 
 @end
 @implementation MainViewController{
     RemindView *_remindView;
+    NSInteger _inputImageWidth;
+    NSInteger _faceNumber;
+}
+
+- (void)viewDidLoad {
+    FaceModel *model = [[FaceModel alloc] init];
+    [self processFaceResult:model];
 }
 
 #pragma mark - event response
@@ -31,4 +40,11 @@
         [_remindView removeFromSuperview];
     }
 }
+
+#pragma mark - private method
+- (void)processFaceResult:(id<FaceDetectProtocol>)data {
+    _inputImageWidth = [data getInputImageWidth];
+    _faceNumber = [data getFaceNumber];
+}
+
 @end
