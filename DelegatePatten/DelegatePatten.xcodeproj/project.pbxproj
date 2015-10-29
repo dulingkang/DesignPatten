@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ADA6BAA1BE2648F004A5BA3 /* ConcreteProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADA6BA91BE2648F004A5BA3 /* ConcreteProxy.m */; };
 		3ADE719E1BE10F4D00AB9ABD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE719D1BE10F4D00AB9ABD /* main.m */; };
 		3ADE71A11BE10F4D00AB9ABD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADE71A01BE10F4D00AB9ABD /* AppDelegate.m */; };
 		3ADE71A71BE10F4D00AB9ABD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADE71A51BE10F4D00AB9ABD /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ADA6BA81BE2648F004A5BA3 /* ConcreteProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteProxy.h; sourceTree = "<group>"; };
+		3ADA6BA91BE2648F004A5BA3 /* ConcreteProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteProxy.m; sourceTree = "<group>"; };
+		3ADA6BAB1BE264BF004A5BA3 /* MessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageProtocol.h; sourceTree = "<group>"; };
 		3ADE71991BE10F4D00AB9ABD /* DelegatePatten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegatePatten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADE719D1BE10F4D00AB9ABD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3ADE719F1BE10F4D00AB9ABD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +117,9 @@
 				3ADE71C01BE1183800AB9ABD /* AbstractProxy.m */,
 				3ADE71C21BE1186900AB9ABD /* AbstractExcute.h */,
 				3ADE71C31BE1186900AB9ABD /* AbstractExcute.m */,
+				3ADA6BA81BE2648F004A5BA3 /* ConcreteProxy.h */,
+				3ADA6BA91BE2648F004A5BA3 /* ConcreteProxy.m */,
+				3ADA6BAB1BE264BF004A5BA3 /* MessageProtocol.h */,
 			);
 			name = NSProxy;
 			sourceTree = "<group>";
@@ -194,6 +201,7 @@
 				3ADE71B71BE10F7300AB9ABD /* MainViewController.m in Sources */,
 				3ADE71B81BE10F7300AB9ABD /* RemindView.m in Sources */,
 				3ADE71C41BE1186900AB9ABD /* AbstractExcute.m in Sources */,
+				3ADA6BAA1BE2648F004A5BA3 /* ConcreteProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +348,7 @@
 				3ADE71B21BE10F4D00AB9ABD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

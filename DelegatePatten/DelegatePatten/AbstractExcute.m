@@ -12,15 +12,15 @@
 
 + (instancetype)sharedInstance {
     static AbstractExcute * excute = nil;
-    static dispatch_once_t *predicate;
-    dispatch_once(predicate, ^{
+    static dispatch_once_t predicate;
+    dispatch_once(&predicate, ^{
         excute = [[AbstractExcute alloc] init];
     });
     return excute;
 }
 
 - (void)nullExcute:(NSArray *)array {
-    
+    NSLog(@"Array:%@", array);
 }
 
 @end

@@ -10,8 +10,9 @@
 #import "RemindView.h"
 #import "FaceDetectProtocol.h"
 #import "FaceModel.h"
+#import "ConcreteProxy.h"
 
-@interface MainViewController()<RemindViewDelegate>
+@interface MainViewController()<RemindViewDelegate, MessageProtocol>
 
 @end
 @implementation MainViewController{
@@ -23,6 +24,9 @@
 - (void)viewDidLoad {
     FaceModel *model = [[FaceModel alloc] init];
     [self processFaceResult:model];
+    ConcreteProxy *proxy = [ConcreteProxy alloc];
+    proxy.delegate = self;
+    [proxy doTransport];
 }
 
 #pragma mark - event response
@@ -39,6 +43,10 @@
     if (_remindView != nil) {
         [_remindView removeFromSuperview];
     }
+}
+
+- (void)doTransport {
+    NSLog(@"transport>>>>");
 }
 
 #pragma mark - private method
